@@ -27,16 +27,17 @@ const HomePage = (props) => {
     )
 }
 
-// export async function getStaticProps() {
 
-//   return {
-//     props: {
-//       meetups: DUMMY_MEETUPS
-//     },
-//     revalidate: 5
-//   }
+export async function getStaticProps() {
 
-// }
+  return {
+    props: {
+      meetups: DUMMY_MEETUPS
+    },
+    revalidate: 5
+  }
+
+}
 
 
 export default HomePage

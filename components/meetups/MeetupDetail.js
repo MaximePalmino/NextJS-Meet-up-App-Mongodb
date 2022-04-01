@@ -7,7 +7,7 @@ const MeetupDetail = ({img, title, adress, description}) => {
         <section className={classes.detail} >
         <img src={img}></img>
         <h1>{title}</h1>
-        <adress>{adress}</adress>
+        <p>{adress}</p>
         <p>{description}</p>
         </section>
     )
